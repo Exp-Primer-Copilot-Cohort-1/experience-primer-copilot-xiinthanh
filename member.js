@@ -1,8 +1,5 @@
 function skillsMember() {
-  return {
-    skills: ['HTML', 'CSS', 'JS'],
-    addSkill(skill) {
-      this.skills.push(skill);
-    },
-  };
+  // User-defined function
+  var mySkills = ["HTML", "CSS", "JS", "React", "Node", "MongoDB"];
+  return mySkills;
 }
